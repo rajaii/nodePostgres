@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "message": "Your true mission has not even begun",
+        "luckyNumber": 8,
+        "spiritAnimal": "Dog"
+    },
+    {
+        "id": 2,
+        "message": "You will get money",
+        "luckyNumber": 9,
+        "spiritAnimal": "Cat"
+    },
+    {
+        "id": 3,
+        "message": "You can not move forward without finishing the job",
+        "luckyNumber": 3,
+        "spiritAnimal": "Fish"
+    }
+]
