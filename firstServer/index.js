@@ -5,7 +5,21 @@ const hostname = 'localhost'
 const port = 3000
 
 const server = http.createServer((req, res) => {
-    res.end('<h1>Welcome to Node!</h1>')
+    const { url } = req
+    
+    console.log(url)
+    if (url === "/translations") {
+        const favoriteHobbies = {1: 'BJJ', 2: 'guitar', 3: 'coding'}
+        res.setHeader('Content-Type', "application/json")
+
+        res.write(JSON.stringify(favoriteHobbies))
+        console.log(http.METHODS)
+    }
+
+   
+
+    res.end()
+
 })
 
 server.listen(port, hostname, () => {
